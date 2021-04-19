@@ -6,9 +6,9 @@ $(document).ready(function(){
     var link_close = $('.hamburger-menu a.close')
 
     link.click(function(){
-        menu.show();
+        menu.show(500);
     });
     link_close.click(function(){
-        menu.hide();
+        menu.hide(500);
     })
 })
